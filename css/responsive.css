@@ -1,0 +1,113 @@
+@media screen and (max-width:1213px) {
+    header .image-logo {
+    margin-left: 50px;
+}
+}
+
+@media screen and (max-width:1108px) {
+    section.title-box {
+	background-color: #f8f8f8;
+	min-height: 397px;
+}
+
+section.title-box .margin-box-title {
+    margin: 30px 0;
+}
+
+section.title-box .box {
+    width: 45%;
+    position: relative;
+    left: 5%;
+}
+}
+
+@media screen and (max-width:867px) {
+    section.image-gallery img {
+        display: inline-block;
+}
+}
+
+@media screen and (max-width:654px) {
+    header {
+	background-color: #1C1C1C;
+	padding: 30px 0;
+	width: 100%;
+}
+    
+    header .image-logo {
+	float: none;
+    text-align: center;
+    margin: auto;
+}
+    nav {
+	float: none;
+}
+
+nav li {
+	display: block;
+	float: none;
+}
+    
+    nav li:hover {
+        background-color: #4e4a4a;
+        padding: 0 15px 0 0;
+        transition: padding .25s ease-out;
+        transform: scale(1.2) skew(2);
+    }
+    
+nav li a {
+    text-align: center;
+	display: block;
+    font-size: 18px;
+}
+    
+    .showcase {
+	background-color: #1F1F1F;
+	min-height: 392px;
+	padding: 20px 0 20px;
+	text-align: center;
+    min-height: 312px;
+}
+    
+    .showcase h1 {
+	font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.showcase p {
+    margin-bottom: 30px;
+    font-size: 30px
+}   
+}
+
+@media screen and (max-width:582px) {
+    section.image-gallery .margin-image img {
+        width: 100%;
+        margin: 6px 0;
+    }
+    
+    section.image-gallery li {
+	display: inline-block;
+	margin: 10px 2px 10px;
+	background-color: #F74D4C;
+	padding: 12px 20px;
+	border-radius: 5px;
+}
+}
+
+@media screen and (max-width:484px) {
+    section.title-box .box {
+    float:none;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    left: 0;
+}
+    .showcase h1 {
+        font-size: 40px;
+    }
+    .showcase p {
+        font-size: 25px;
+        padding: 10px;
+    }
+}
